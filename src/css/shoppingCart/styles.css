@@ -1,0 +1,179 @@
+header {
+    background-color: cornflowerblue;
+    background-image: url('/src/images/shoppingCart/littleSparrow.jpg');
+    background-size: cover;
+
+    background-position: center;
+    height: 150px;
+    position: relative;
+    background-repeat:no-repeat;
+}
+
+
+nav {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    padding: 20px;
+}
+
+nav li {
+    padding-left: 5px;
+    display: inline-block;
+}
+
+nav li span {
+    padding-left: 5px;
+    
+}
+
+
+li a {
+    padding: 5px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+li a:hover {
+    background-color: darkgreen;
+}
+
+.container , .cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;    
+    padding: 25px;
+}
+
+.imageStyle {
+    height: 350px;
+    width: 350px;
+    margin-left: 12px;
+    margin-right: 12px;
+   
+    padding: 18px;
+    
+}
+
+.images {
+   
+    height: 250px;
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.images-cart {
+   
+    height: 150px;
+    width: 150px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.addinCart {
+    text-decoration: none;
+    /* color: white; */
+    text-decoration-color: white;
+    background-color: orange;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid black;
+    opacity: .7;
+
+    height: 32px;
+    padding: 10px;
+    text-align: center;
+}
+
+.addinCart:hover {
+    background-color: darkorange;
+    border: 4px solid black;
+}
+
+.cart-container {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: space-around;
+
+}
+
+.cart-title {
+    width: 700px;
+    display: flex;
+    justify-content: flex-start;  
+    border-bottom: 5px solid black;  
+}
+
+.my-product {
+    width: 40%;
+    /* margin-bottom: 1px;
+    border-bottom: 5px solid navy;  */
+    margin-bottom:  auto;
+    margin-top: auto;
+    align-items: center;
+}
+
+.product-price {
+    width: 20%;
+    /* margin-bottom: 1px;
+    border-bottom: 5px solid green;  */
+    margin-bottom:  auto;
+    margin-top: auto;
+    align-items: center;
+}
+.product-qty{
+    width: 20%;
+    /* margin-bottom: 1px;
+    border-bottom: 5px solid navy;  */
+    margin-bottom:  auto;
+    margin-top: auto;
+    align-items: center;
+}
+
+.product-total {
+    width: 20%;
+    
+    /* border-bottom: 5px solid green;  */
+    margin-bottom:  auto;
+    margin-top: auto;
+    /* align-items: center; */
+}
+
+.my-products-inCart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cart-links {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    height: 25px;
+    width: 77px;
+    align-content: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 7px;
+    border: 2px solid black;
+}
+
+.cart-links:hover {
+    background-color: darkgreen;
+}

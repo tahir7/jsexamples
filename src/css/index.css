@@ -1,0 +1,68 @@
+.container 
+     {
+        width: 80vw;
+        height: 150vh;
+        /* vh stands for view-port height, 1vh is 1% of screen height */
+        text-align: center;
+        /* max-width: 1200px; */
+        
+        background: #e4e0e0;
+        margin-left: 100px;
+        margin-right: 100px;
+        }
+
+
+.card-container 
+    {
+        background: #f5f3f3;
+        height: 150px;
+        width: 250px;
+        box-shadow: 0 0 10px black;
+        display: inline-block;
+        margin: 5px;
+        padding: 25px;
+
+        border: .25px solid black;
+
+        word-wrap: break-word;
+        scroll-behavior: auto;
+        overflow: scroll;   
+
+        /* border-radius: 18px; */
+    }
+
+    .card-container:hover {
+        background-color: #e6dfdf;
+        border-radius: 4px;
+        border: 2px solid black;
+
+    }
+
+    .url {
+        list-style: upper-latin;
+        color: black;
+        background-color: #1abc9c;
+        padding: 2px;
+        margin-top: 5px;
+
+        padding: 8px;
+        box-shadow: -3.9px 1.4px gray;
+        border: 1px solid black;
+
+        border-radius: 4px;       
+
+    }
+
+    .url:hover {
+
+        background-color: white;
+        font-size: 115%;        
+    }
+
+.header {
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    }

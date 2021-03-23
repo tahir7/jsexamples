@@ -1,0 +1,32 @@
+.container 
+     {
+        width: 80vw;
+        height: 150vh;
+        /* vh stands for view-port height, 1vh is 1% of screen height */
+        text-align: center;
+        /* max-width: 1200px; */
+        
+        background: #e4e0e0;
+        margin-left: 100px;
+        margin-right: 100px;
+        }
+
+
+.card-container 
+    {
+        background: #f5f3f3;
+        height: 150px;
+        width: 250px;
+        box-shadow: 0 0 10px black;
+        display: inline-block;
+        margin: 5px;
+        padding: 25px;
+
+        border: 1px solid black;
+
+        word-wrap: break-word;
+        scroll-behavior: auto;
+        overflow: scroll;   
+
+        /* border-radius: 18px; */
+    }
